@@ -1,0 +1,1 @@
+Projeto dois do bootcamp do 0 ao programado IFOOD, Calculadora de partidas ranqueadas
