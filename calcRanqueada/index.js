@@ -11,15 +11,13 @@ function Ranking (vitorias) {
         return "Bronze"}
     else if ((vitorias >= 21)&&(vitorias <= 50)) {
         return "Prata"}
-    else if ((vitorias >= 51)&&(vitorias <= 70)) {
+    else if ((vitorias >= 51)&&(vitorias <= 80)) {
         return "Ouro"}
-    else if ((vitorias >= 71)&&(vitorias <= 80)) {
-        return "Platina"}
     else if ((vitorias >= 81)&&(vitorias <= 90)) {
-        return "Ascendente"}
+        return "Diamante"}
     else if ((vitorias >= 91)&&(vitorias <= 100)) {
-        return "Imortal"}
-    else if (vitorias >= 101) {return "Radiante"}
+        return "Lendário"}
+    else if (vitorias >= 101) {return "Imortal"}
 }
 
 console.log(`O Herói tem de saldo de **${CalcularSaldoDeVitorias(vitorias, derrotas)}** 
