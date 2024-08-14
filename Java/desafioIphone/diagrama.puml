@@ -1,0 +1,26 @@
+@startuml
+class "Iphone" as Iphone {
+
+}
+
+interface "ReprodutorMusica" as ReprodutorMusica {
+ +Tocar()
+ +Pausar()
+ +SelecionarMusica()
+}
+interface AparelhoTelefonico {
+ +Ligar()
+ +Atender()
+ +IniciarCorreioVoz()
+}
+interface NavegadorInternet {
+ +exibirPagina()
+ +adicionarNovaAba()
+ +atualizarPagina() 
+}
+
+Iphone <-- ReprodutorMusica
+Iphone <-- AparelhoTelefonico
+Iphone <-- NavegadorInternet
+
+@enduml
