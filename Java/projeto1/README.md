@@ -1,4 +1,5 @@
-## Primeiro Projeto Java DIO
+## Projetos Java DIO
+Aqui tem as minhas principais anotações, exercícios e testes do bootcamp de Java com AI da DIO.
 
 Este projeto é um teste do bootcamp da DIO Desenvolvimento Java com AI
 
