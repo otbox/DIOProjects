@@ -1,4 +1,4 @@
-package banco;java NoClassDefinitionError
+package banco;
 
 import java.util.Scanner;
 
