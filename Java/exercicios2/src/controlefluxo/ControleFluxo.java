@@ -3,12 +3,16 @@ package controlefluxo;
 import java.util.Scanner;
 
 public class ControleFluxo {
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         int n, n1; 
         Scanner in = new Scanner(System.in);
         n = in.nextInt();
         n1 = in.nextInt();
-        imprimir(n, n1);
+        try {
+            imprimir(n, n1);
+        } catch (ParametrosInvalidosException e) {
+            System.out.println(e);
+        }
     }
     static void imprimir(int n, int n1) throws ParametrosInvalidosException{
         if (n < n1){
